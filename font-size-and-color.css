@@ -1,0 +1,44 @@
+/* 
+Help text:
+
+- you can use "inherit" if you want to take the font size or color from the parent element.
+- If any color or font size is not working, you can use "!important" to force it work. But using "!important" is not a good practice. 
+
+*/
+
+/* Header font-desktop version */
+.header__menu-item {
+  color: #ffdc7f;
+  font-size: 1.6rem;
+}
+
+.header__menu-item:hover {
+  color: #ffdc7f !important;
+  background-color: #227b94 !important;
+}
+
+.header__active-menu-item {
+  color: #ffdc7f;
+}
+
+/* Header font- mobile and tablet version */
+.menu-drawer__menu-item {
+  color: #ffdc7f;
+  font-size: 1.6rem !important;
+}
+
+.menu-drawer__menu-item--active {
+  color: #16325b !important;
+  background-color: #ffdc7f !important;
+}
+
+.menu-drawer__menu-item:hover {
+  color: #ffdc7f !important;
+  background-color: #227b94 !important;
+}
+
+.menu-drawer__close-button {
+  color: #78b7d0 !important;
+  background-color: #16325b !important;
+  font-size: 1.6rem !important;
+}
